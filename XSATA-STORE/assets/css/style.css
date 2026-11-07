@@ -1,0 +1,75 @@
+body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Top Navbar */
+.top-navbar {
+    background-color: #343a40;
+    color: white;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    font-weight: bold;
+}
+.top-navbar .search-box {
+    background-color: #495057;
+    border: none;
+    color: #adb5bd;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+/* Sidebar */
+.sidebar {
+    background-color: #ffffff;
+    min-height: calc(100vh - 56px);
+    border-right: 1px solid #dee2e6;
+    padding-top: 20px;
+}
+.sidebar .nav-link {
+    padding: 10px 20px;
+    color: #333;
+    font-size: 15px;
+}
+.sidebar .nav-link:hover,
+.sidebar .nav-link.active {
+    color: #0d6efd;
+    background-color: #f1f3f5;
+}
+.sidebar .nav-link i {
+    margin-right: 10px;
+}
+
+/* Content Area */
+.main-content {
+    padding: 30px;
+}
+.main-content h1.h2 {
+    font-weight: 500;
+    color: #212529;
+}
+.welcome-text {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Kotak "dalam pengembangan" */
+.dev-box {
+    background-color: #bee2f8;
+    padding: 20px;
+    border: 3px solid #0a3854;
+    text-align: center;
+    font-size: 15px;
+    width: 350px;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
